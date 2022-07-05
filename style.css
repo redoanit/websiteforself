@@ -1,5 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 .orange {
@@ -8,12 +11,12 @@ body {
 
 .WelcomeSection {
     display: flex;
+    margin-top: 80px;
+    margin-bottom: 100px;
 
 }
 
 #WS1 {
-
-
     width: 40%;
     margin-left: 40px;
 }
@@ -23,11 +26,40 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-
-
 }
 
 #BTNWS {
+    text-decoration: none;
+    background-color: orange;
+    margin-left: 40px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+}
+
+.DreamSection {
+    display: flex;
+    margin-left: 7%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+#DS1 {
+
+    width: 45%;
+
+}
+
+#DS2 {
+    width: 45%;
+    margin-left: 3%;
+    margin-top: 20px;
+
+}
+
+#DMBTN {
     text-decoration: none;
     background-color: orange;
     margin-left: 40px;
