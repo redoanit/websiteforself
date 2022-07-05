@@ -67,3 +67,34 @@ body {
     padding: 10px 15px;
     color: white;
 }
+
+.Experience {
+    display: flex;
+    margin-bottom: 80px;
+
+}
+
+#FWD {
+    margin: auto;
+    width: 35%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 7px 40px gray;
+    border-left: solid 5px greenyellow;
+
+
+}
+
+#BWD {
+    margin: auto;
+    width: 35%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 7px 40px gray;
+    border-left: solid 5px orange;
+    ;
+}
+
+footer {
+    text-align: center;
+}
