@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.orange {
+    color: orange;
+}
+
+.WelcomeSection {
+    display: flex;
+
+}
+
+#WS1 {
+
+
+    width: 40%;
+    margin-left: 40px;
+}
+
+#WS2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+
+}
+
+#BTNWS {
+    text-decoration: none;
+    background-color: orange;
+    margin-left: 40px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+}
